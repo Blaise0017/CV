@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+    <link rel="stylesheet" href="Css/styles.css">
+
+  </head>
+  <body>
+    <fieldset>
+      <legend>My contact</legend>
+    <p>email</p>
+    <p>phone</p>
+    <p>address</p>
+  </fieldset>
+    
+    <form action="index.html" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>user info</legend>
+      <input type="time" name="time" value="">
+      <input type="date" name="" id=""><br><br>
+      <label>Your name</label>
+      <input type="text"name=""value=""><br><br>
+      <label>Email</label>
+      <input type="email" name="your email" value=""><br><br>
+      <label>Message</label><br>
+      <textarea name="your message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" name="submit" id="">
+    </fieldset>
+      
+      <fieldset>
+        <legend>location</legend>
+      <select name="location">
+      <option value="MA">MA</option>
+      <option value="CA">CA</option>
+      <option value="UK">UK</option>
+      <option value="NIGERIA" selected>NIGERIA</option><br>
+  
+      <label>Gender</label><br>
+      <input type="radio" name="gender" id="male">male
+      <input type="radio" name="gender" id="">female
+    </fieldset>
+    <br>
+
+    <div>
+      <audio class="myaudio" src="http://www.freesound.org\data\previews\95\95026.mp3" controls> 
+        your browser does not support 
+      </audio>
+      <button onclick="document.getElementById('myaudio').play">play</button>
+      <button onclick="document.getElementById('myaudio').pause">pause</button>
+      <button onclick="document.getElementById('myaudio').volume+=0.1">+volume</button>
+      <button onclick="document.getElementById('myaudio').volume-=0.1">-volume</button>
+
+
+
+    </div>
+    
+
+      
+     
+
+
+      
+
+      
+    </form>
+  </body>
+</html>
